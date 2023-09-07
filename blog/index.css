@@ -1,0 +1,141 @@
+    #navbar {
+        background-color: rgb(255, 255, 255);
+        border-radius: 10px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    
+
+@media screen and (max-width : 820px) {
+    #navbar{
+           background-color: rgb(255, 255, 255);
+        }
+}
+#icon{
+    display: none;
+}
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+#list {
+    list-style-type: none;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+li a,
+button a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+
+}
+
+li {
+    display: inline-block;
+    margin-right: 25px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+li a:hover {
+    background-color: rgb(72, 141, 197);
+    padding: 10px;
+    font-size: 17px;
+    border-radius: 10%;
+}
+
+
+
+@media screen and (max-width: 550px ) {
+    #icon {
+            display: block;
+            cursor: pointer;
+            padding-right: 10px;
+            color: black;
+        }
+    .pages{
+        display: none;
+    }
+
+    }
+@media screen and (max-width: 550px) {
+    #list{
+        display: none;
+        position:absolute;
+        width: 100%;
+        height: 100%;
+        background-color: #2c3e50;
+        top: 80px;
+        left: 0;
+        text-align: center;
+    }
+    #list .pages{
+        width: 100%;
+        text-align: center;
+        margin-top: 20px;
+        font-weight: 400;
+    }
+    #list .pages a{
+        text-align: center;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    a:hover{
+        color: #05244b;
+        background-color: none;
+    }
+     #con1,#con2 {
+        width: 100%;
+
+
+    }
+}
+
+
+button{
+    padding: 10px;
+}
+#header{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-left: 20px;
+    color:rgb(0, 0, 0);
+    text-decoration:underline;
+}
+#cap{
+    font-size: 60px;
+    color: red;
+}
+#extra{
+    display: none;
+
+}
+
+/* content */
+
+.content{
+    width: 100%;
+    height:480px;
+    padding-top: 150px;
+}
+
+#contentname{
+    font-size: 70px;
+    text-transform: uppercase;
+    margin-top: 20px;  
+    font-weight: bolder;
+}
+span{
+    color: rgb(240, 118, 74);
+}
+
+ul{
+    float: left;
+}
+
